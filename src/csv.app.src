@@ -1,0 +1,13 @@
+{application, csv, [
+    {description, "Erlang CSV Parser"},
+    {vsn, "%VSN%"},
+    {modules, [
+        csv
+    ]},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib
+    ]}
+]}.
+
